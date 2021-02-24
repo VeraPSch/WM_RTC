@@ -1,0 +1,17 @@
+topics:
+-
+  name    : move_base
+  topic   : move_base/cmd_vel
+  timeout : 0.5
+  priority: 10
+-
+  name    : sonar_obstacle_avoidance
+  topic   : sonar/cmd_vel
+  timeout : 0.5
+  priority: 50
+-
+  name    : joysticks
+  topic   : joy/cmd_vel
+  timeout : 0.5
+  priority: 100
+
