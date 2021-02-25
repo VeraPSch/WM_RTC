@@ -2,7 +2,7 @@
 Repository für das Wahlmodul der Roboterprogrammierung mir ROS und Python und die RTC.
 
 Connecting Turtlebot3 
-$ ssh 192.... (IP Adresse der Turtle angeben über WLAN)
+$ ssh 192.168.1.146 (IP Adresse der Turtle angeben über WLAN)
 $ roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
 Manuelle Steuerung
